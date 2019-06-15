@@ -4,47 +4,47 @@ var discordClientFactory = require('./discordClient.js');
     var botArray = [];
     
     config = {};
-    config.token = '';
+    config.token = ''; //paste your token in here
     configsArray.push(config);
 	
     config = {};
-    config.token = '';
+    config.token = ''; //paste your token in here
     configsArray.push(config);
 
     config = {};
-    config.token = '';
+    config.token = ''; //paste your token in here
     configsArray.push(config);
 
     config = {};
-    config.token = '';
+    config.token = ''; //paste your token in here
     configsArray.push(config);
 
     config = {};
-    config.token = '';
+    config.token = ''; //paste your token in here
     configsArray.push(config);
 
     config = {};
-    config.token = '';
+    config.token = ''; //paste your token in here
     configsArray.push(config);
 
     config = {};
-    config.token = '';
+    config.token = ''; //paste your token in here
     configsArray.push(config);
 
     config = {};
-    config.token = '';
+    config.token = ''; //paste your token in here
     configsArray.push(config);
 
     config = {};
-    config.token = '';
+    config.token = ''; //paste your token in here
     configsArray.push(config);
 
     config = {};
-    config.token = '';
+    config.token = ''; //paste your token in here
     configsArray.push(config);
 
     config = {};
-    config.token = '';
+    config.token = ''; //paste your token in here
     configsArray.push(config);
 	
 	
