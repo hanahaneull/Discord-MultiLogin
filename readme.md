@@ -11,6 +11,7 @@ Load more than 1 discord token with ease.
 
 
 Install the dependencies.
+Put token in ``token.txt``
 
 ```sh
 $ npm i
