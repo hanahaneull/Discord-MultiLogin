@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.0"
+    "fs-extra": "^8.1.0"
   }
 }
