@@ -1,27 +1,15 @@
-var Discord = require('discord.js');
-var botFactory = {};
- 
-botFactory.buildBot = function (config)
-{	
-	const settings = new Discord.Client({
-		disableEveryone: true
-	});
-	
-	const bot = settings
-	
-	bot.token = config.token;
-	
-	bot.on('ready', () => {
-		console.log("Logged as: " + bot.user.tag);
-	});
+const Discord = require("discord.js");
+const fs = require("fs-extra");
 
-	bot.doLogin = function ()
-	{
-		this.login(this.token);
-	}
-	
-	
-	return bot;
-}
- 
-module.exports = botFactory;
+const tokens = fs
+  .readFileSync("./token.txt", "utf-8")
+  .replace(/\r/gi, "")
+  .split("\n");
+
+tokens.forEach((token, i) => {
+  const client = new Discord.Client();
+  client.login(token);
+  client.on('ready', () => {
+  console.log(i);
+  });
+})
